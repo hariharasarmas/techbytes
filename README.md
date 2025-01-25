@@ -90,3 +90,8 @@ Update .streamlit/secrets.toml with your agent_endpoint_id and compartment_id
 Use run.sh to run the demo
 
 Your application will be running on http://server-ip-address:8501
+
+**Screenshots**
+
+![image](https://github.com/user-attachments/assets/dc0985b5-00c0-4757-b7a7-6b4f3f92f04d)
+
