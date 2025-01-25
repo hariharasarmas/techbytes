@@ -89,9 +89,11 @@ Copy the provided code into your VM
 Update the .streamlit/secrets.toml file by adding your agent_endpoint_id and compartment_id to the appropriate sections as specified in the file
 
 If you want to run in isolated enveironent. Run in conda environment as below
-conda activate <path>
+
+conda activate < provide path here >
 
 You can run the steamlit application as below
+
 streamlit run st_genai_agent.py --server.port 3119 
 
 Your application will be running on http://server-ip-address:3119
