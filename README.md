@@ -2,7 +2,7 @@
 
 The RAG Agent leverages the power of Oracle's Cloud Data Platform to provide you with a seamless and informative retrieval-augmented generation (RAG) chat experience through Oracle Generative AI Agents, which is currently in beta.
 
-**Generative AI Agent (Beta) Features**
+**Generative AI Agent Features**
 Secure & Private: All data remains confidential within your Oracle Cloud tenancy, benefiting from all of the built-in security features.
 
 Chat with the GenAI Agent: Have a conversation - ask questions and get insightful answers.
