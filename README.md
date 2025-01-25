@@ -26,7 +26,7 @@ Reset Chat: Click to clear the session history and begin a new conversation.
 
 
 
-**Explore it within your Oracle Cloud tenancy**
+## **Explore it within your Oracle Cloud tenancy**
 
 **Before you start**
 
