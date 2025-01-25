@@ -1,9 +1,9 @@
-**Demo App for Oracle Cloud Generative AI Services**
+## **Demo App for Oracle Cloud Generative AI Services**
 
 The RAG Agent harnesses the capabilities of Oracle's Cloud Data Platform to deliver a seamless and insightful retrieval-augmented generation (RAG) chat experience, powered by Oracle Generative AI Agents
 
 
-**Architecture**
+## **Architecture**
 
 ![image](https://github.com/user-attachments/assets/f06e446a-de25-489e-a9a6-2aa4a091c15b)
 
@@ -14,7 +14,7 @@ Generative AI Agents: Deliver the RAG pipeline as a Platform-as-a-Service (PaaS)
 Compute: A virtual machine hosts the Streamlit application, powering the user interface
 
 
-**Generative AI Agent Features**
+## **Generative AI Agent Features**
 
 Secure and Private: Your data remains fully confidential within your Oracle Cloud tenancy, protected by Oracle's comprehensive security features
 
@@ -28,7 +28,7 @@ Reset Chat: Click to clear the session history and begin a new conversation.
 
 ## **Explore it within your Oracle Cloud tenancy**
 
-**Before you start**
+## **Before you start**
 
 You must have an Oracle Cloud Account subscribed to one of the following regions: Chicago, Frankfurt, or London.
 
@@ -48,7 +48,7 @@ compartment_id
 
 Other required items as mentioned in the comments within the file
 
-**Oracle Cloud Free Tier**
+## **Oracle Cloud Free Tier**
 
 You can sign up for an Oracle Cloud Free Tier Account, which offers a range of free services
 
@@ -74,7 +74,7 @@ Observability Services including Logging, Monitoring, Notifications
 
 
 
-**Get started**
+## **Get started**
 
 Set up the Generative AI Agents service in your Oracle Cloud account, and make sure to note the agent_endpoint_id for authentication and integration purposes.
 
@@ -98,7 +98,7 @@ Your application will be running on http://server-ip-address:3119
 If you have linux UI installed you can access your application or else you can access using VNC or x11 forwarding
 
 
-**Screenshots**
+## **Screenshots**
 
 ![image](https://github.com/user-attachments/assets/dc0985b5-00c0-4757-b7a7-6b4f3f92f04d)
 
