@@ -76,7 +76,7 @@ If you are one of my customers I can get you up to 60 days and $500 in credits. 
 
 Set up Generative AI Agents service and note the agent_endpoint_id
 
-Make sure you have port 8501 open on security list
+
 
 Launch a VM with Oracle Linux 8 image and attach setup.sh as cloud-init script
 
