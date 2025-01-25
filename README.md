@@ -1,95 +1,98 @@
 **Demo App for Oracle Cloud Generative AI Services**
 
-The RAG Agent leverages the power of Oracle's Cloud Data Platform to provide you with a seamless and informative retrieval-augmented generation (RAG) chat experience through Oracle Generative AI Agents, which is currently in beta.
+The RAG Agent harnesses the capabilities of Oracle's Cloud Data Platform to deliver a seamless and insightful retrieval-augmented generation (RAG) chat experience, powered by Oracle Generative AI Agents
 
-**Generative AI Agent Features**
-Secure & Private: All data remains confidential within your Oracle Cloud tenancy, benefiting from all of the built-in security features.
 
-Chat with the GenAI Agent: Have a conversation - ask questions and get insightful answers.
-
-View Citations: Explore the sources behind the agent's responses to validate the responses are grounded.
-
-Reset Chat: A button to clear the session history and start fresh.
-
-**Underlying Architecture**
+**Architecture**
 
 ![image](https://github.com/user-attachments/assets/f06e446a-de25-489e-a9a6-2aa4a091c15b)
 
-Object Storage: Stores private data files for the knowledge base with AES256 encryption.
+Object Storage: Securely stores private data files for the knowledge base using AES-256 encryption.
 
-Generative AI Agents (Beta): Provides the RAG pipeline as a PaaS service.
+Generative AI Agents: Deliver the RAG pipeline as a Platform-as-a-Service (PaaS) solution
 
-Generative AI Service: Can be either shared or dedicated hosting, with your choice of Cohere and Meta for Large Language Model (LLM).
+Compute: A virtual machine hosts the Streamlit application, powering the user interface
 
-Compute: A virtual machine hosts the Streamlit app to provide the UI.
+**Generative AI Agent Features**
 
-**Try Out in Your Oracle Cloud Tenancy**
+Secure and Private: Your data remains fully confidential within your Oracle Cloud tenancy, protected by Oracle's comprehensive security features
+
+Chat with the GenAI Agent: Engage in a conversation, ask questions, and receive insightful, meaningful answers
+
+View Citations: Explore the sources behind the agent's responses to validate the responses are grounded.
+
+Reset Chat: Click to clear the session history and begin a new conversation.
+
+**Explore it within your Oracle Cloud tenancy**
 
 **Before you start**
 
-You must have an Oracle Cloud Account subscribed to the Chicago, Frankfurt, or London region
+You must have an Oracle Cloud Account subscribed to one of the following regions: Chicago, Frankfurt, or London.
 
-You must already have an Generative AI Agents (beta) endpoint available
+You must have access to a Generative AI Agents endpoint
 
-this app only provides a front end
+This app provides only the front-end interface.
 
-currently only available with whitelisting in Chicago region
+Availability: Currently, it is only accessible through whitelisting in the Chicago region
 
-You must set up oci config in order to authenticate to the agent endpoint.
-You must update .streamlit/secrets.toml
+OCI Configuration: You must configure your OCI settings to authenticate to the agent endpoint.
+
+Update Secrets File: Modify the .streamlit/secrets.toml file to include the following:
 
 agent_endpoint_id
 
 compartment_id
 
-other items as noted in comments
+Other required items as mentioned in the comments within the file
 
 **Oracle Cloud Free Tier**
 
-Did you know you can sign up for an Oracle Cloud Free Tier Account?
+You can sign up for an Oracle Cloud Free Tier Account, which offers a range of free services
 
 You get $300 in credits for 30 days to use on all available services
 
-You get Always Free Resources for as long as you want them including but not limited to:
-
 Oracle Autonmous Database with APEX
 
-NoSQL Database
+Provides 20 GB of Object Storage and 20 GB of Archive Storage
+
+You get Always Free Resources for as long as you want them including but not limited to:
 
 2 AMD Compute Instances with 1/8 OCPU and 1 GB RAM each
 
-Up to 4 ARM Compute Instances with a combined total of 4 OCPU and 24 GB of RAM
+You can get up to 4 ARM Compute Instances, offering a combined total of 4 OCPUs and 24 GB of RAM
+
+Networking Services, including Virtual Cloud Network (VCN), Load Balancer, Site-to-Site VPN, and 10 TB of outbound data transfer per month, enabling secure and scalable networking for your cloud infrastructure
 
 200 GB Block Storage
-
-20 GB Object and Archive Storage
 
 Security Services including Certificates, Valut and Bastion (managed SSH jumpbox)
 
 Observability Services including Logging, Monitoring, Notifications
 
-Networking Services including VCN, Load Balancer, Site-to-Site VPN, and 10 TB of outbound data transfer per month
 
-If you are one of my customers I can get you up to 60 days and $500 in credits. Reach out to me directly and I will get you set up.
 
 **Get started**
 
-Set up Generative AI Agents service and note the agent_endpoint_id
+Set up the Generative AI Agents service in your Oracle Cloud account, and make sure to note the agent_endpoint_id for authentication and integration purposes.
 
+Launch a VM with Oracle Linux 
 
-
-Launch a VM with Oracle Linux 8 image and attach setup.sh as cloud-init script
-
-SSH into your VM (opc@ipaddress) and check the log at /home/opc/genai_agent_setup.log
-Run setup.sh if you did not add it as cloud-init script
+SSH into your VM 
 
 Set up OCI config
 
-Update .streamlit/secrets.toml with your agent_endpoint_id and compartment_id
+Copy the provided code into your VM
 
-Use run.sh to run the demo
+Update the .streamlit/secrets.toml file by adding your agent_endpoint_id and compartment_id to the appropriate sections as specified in the file
 
-Your application will be running on http://server-ip-address:8501
+If you want to run in isolated enveironent. Run in conda environment as below
+conda activate <path>
+
+You can run the steamlit application as below
+streamlit run st_genai_agent.py --server.port 3119 
+
+Your application will be running on http://server-ip-address:3119
+If you have linux UI installed you can access your application or else you can access using VNC or x11 forwarding
 
 **Screenshots**
 
