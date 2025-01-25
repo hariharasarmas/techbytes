@@ -25,6 +25,7 @@ View Citations: Explore the sources behind the agent's responses to validate the
 Reset Chat: Click to clear the session history and begin a new conversation.
 
 
+
 **Explore it within your Oracle Cloud tenancy**
 
 **Before you start**
