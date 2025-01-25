@@ -106,5 +106,6 @@ If you have linux UI installed you can access your application or else you can a
 
 ## **Screenshots**
 
-![image](https://github.com/user-attachments/assets/dc0985b5-00c0-4757-b7a7-6b4f3f92f04d)
+![image](https://github.com/user-attachments/assets/b053eed4-7067-470a-9c25-925d9518436f)
+
 
