@@ -13,6 +13,7 @@ Generative AI Agents: Deliver the RAG pipeline as a Platform-as-a-Service (PaaS)
 
 Compute: A virtual machine hosts the Streamlit application, powering the user interface
 
+
 **Generative AI Agent Features**
 
 Secure and Private: Your data remains fully confidential within your Oracle Cloud tenancy, protected by Oracle's comprehensive security features
@@ -22,6 +23,7 @@ Chat with the GenAI Agent: Engage in a conversation, ask questions, and receive 
 View Citations: Explore the sources behind the agent's responses to validate the responses are grounded.
 
 Reset Chat: Click to clear the session history and begin a new conversation.
+
 
 **Explore it within your Oracle Cloud tenancy**
 
@@ -93,6 +95,7 @@ streamlit run st_genai_agent.py --server.port 3119
 
 Your application will be running on http://server-ip-address:3119
 If you have linux UI installed you can access your application or else you can access using VNC or x11 forwarding
+
 
 **Screenshots**
 
