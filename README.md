@@ -88,9 +88,13 @@ Copy the provided code into your VM
 
 Update the .streamlit/secrets.toml file by adding your agent_endpoint_id and compartment_id to the appropriate sections as specified in the file
 
-If you want to run in isolated enveironent. Run in conda environment as below
+If you want to run in isolated enveironent. Run in conda environment as below. But before that install required python libraries, create conda environemnt.
 
 conda activate < provide path here >
+
+Below file to install is provided in code folder
+
+pip install genai_agent_service_bmc_python_client-0.1.77-py2.py3-none-any.whl  
 
 You can run the steamlit application as below
 
